@@ -4,22 +4,20 @@
  * @param {String} resultId 
  */
 
-function alphabetizeNewlines(stringsId, resultId) {
+function alphabetize(stringsId, resultId) {
 
-    // Grab value of textarea and split each element by newlines to create an array of strings
-    var stringsArray = document.getElementById(stringsId).value.split("\n");
+    // Grab value of textarea, replace newline characters with commas
+    var textArea = document.getElementById(stringsId).value.replace(/\n/g, ",");
 
-    // Sort the array of strings and display it
-    document.getElementById(resultId).innerHTML = stringsArray.sort();
+    // Convert string to array by splitting elements on commas
+    var stringsArray = textArea.split(",");
 
-}
+    // Alphabetize array in case-insensitive manner
+    stringsArray.sort(function(a, b) {
+        return a.localeCompare(b, "en", { "sensitivity": "base" });
+    });
 
-function alphabetizeCommas(stringsId, resultId) {
-
-    // Grab value of textarea and split each element by commas to create an array of strings
-    var stringsArray = document.getElementById(stringsId).value.split(",");
-
-    // Sort the array of strings and display it
-    document.getElementById(resultId).innerHTML = stringsArray.sort();
+    // Display sorted list of strings
+    document.getElementById(resultId).innerHTML = stringsArray;
 
 }
