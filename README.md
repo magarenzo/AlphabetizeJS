@@ -1,4 +1,4 @@
-# AlphabetizeJS
+# AlphabetizeJS &#128292;
 
 Quickly alphabetize a list of strings
 
