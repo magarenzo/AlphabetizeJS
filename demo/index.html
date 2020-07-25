@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>AlphabetizeJS</title>
+</head>
+
+<body>
+
+    <textarea id="strings">Enter strings (delete me):</textarea><br><br>
+
+    <!-- Passed-in value 'strings' matches id of <textarea> where strings to be alphabetized are entered -->
+    <!-- Passed-in value 'result' matches id of <p> where sorted list of strings will be displayed -->
+    <input type="submit" value="Alphabetize (Newline Separated)" onclick="alphabetizeNewlines('strings', 'result');"><br><br>
+    <input type="submit" value="Alphabetize (Comma Separated)" onclick="alphabetizeCommas('strings', 'result');">
+
+    <p id="result"></p>
+
+    <!-- Include AlphabetizeJS on this page -->
+    <script src="/src/alphabetize.js"></script>
+</body>
+
+</html>
