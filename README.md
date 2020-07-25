@@ -8,7 +8,7 @@ Quickly alphabetize a list of strings
 
 ## About
 
-I realized I somewhat often want to alphabetize a list, so I figured it'd be nice to have a quick solution I drafted up myself rather than looking online or quickly writing a script, or even worse, doing it manually
+I realized I somewhat often want to alphabetize a list, so I figured it'd be nice to have a quick solution I drafted up myself rather than looking online or quickly writing a script, or even worse, doing it manually &#129314;
 
 Now, I can just navigate to [my demo hosted on my website](https://magarenzo.com/projects/AlphabetizeJS/) and quickly alphabetize a newline or comma separated list!
 
