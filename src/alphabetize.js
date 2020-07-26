@@ -1,23 +1,26 @@
 /**
  * Quickly alphabetize a list of strings
- * @param {String} stringsId 
- * @param {String} resultId 
+ * @param {String} wordsId
+ * @param {String} resultId
  */
 
-function alphabetize(stringsId, resultId) {
+function alphabetize(wordsId, resultId) {
 
     // Grab value of textarea, replace newline characters with commas
-    var textArea = document.getElementById(stringsId).value.replace(/\n/g, ",");
+    var textArea = document.getElementById(wordsId).value.replace(/\n/g, ",");
 
     // Convert string to array by splitting elements on commas
-    var stringsArray = textArea.split(",");
+    var wordsArray = textArea.split(",");
 
     // Alphabetize array in case-insensitive manner
-    stringsArray.sort(function(a, b) {
+    wordsArray.sort(function(a, b) {
         return a.localeCompare(b, "en", { "sensitivity": "base" });
     });
 
-    // Display sorted list of strings
-    document.getElementById(resultId).innerHTML = stringsArray;
+    // Convert array to string, add spaces between strings
+    var wordsString = wordsArray.toString().replace(/,/g, ", ");
+
+    // Display sorted list of words
+    document.getElementById(resultId).innerHTML = wordsString;
 
 }
