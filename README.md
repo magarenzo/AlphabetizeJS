@@ -1,6 +1,6 @@
 # AlphabetizeJS &#128292;
 
-Quickly alphabetize a list of strings
+Quickly alphabetize a list of words
 
 ## Demo
 
@@ -12,10 +12,10 @@ I realized I somewhat often want to alphabetize a list, so I figured it'd be nic
 
 ## Usage
 
-Use `onclick` event of `<input>` to pass in the `id` of the `<textarea>` containing strings to alphabetize, and the `id` of the `<p>` where we will display the sorted list of strings
+Use `onclick` event of `<input>` to pass in the `id` of the `<textarea>` containing words to alphabetize, and the `id` of the `<p>` where we will display the sorted list of words
 
 ```html
-<input type="submit" value="Alphabetize" onclick="alphabetize('strings', 'result');">
+<input type="submit" value="Alphabetize" onclick="alphabetize('words', 'result');">
 ```
 
 ## Owner
