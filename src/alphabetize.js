@@ -1,5 +1,5 @@
 /**
- * Quickly alphabetize a list of strings
+ * Quickly alphabetize a list of words
  * @param {String} wordsId
  * @param {String} resultId
  */
