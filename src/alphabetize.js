@@ -1,5 +1,5 @@
 /**
- * Quickly alphabetize a list of words
+ * Quickly alphabetize a list of words split by commas and/or newlines
  * @param {String} wordsId
  * @param {String} resultId
  */
