@@ -2,10 +2,6 @@
 
 Quickly alphabetize a list of words split by commas and/or newlines
 
-## Demo
-
-[magarenzo.com/projects/AlphabetizeJS/](https://magarenzo.com/projects/AlphabetizeJS/)
-
 ## About
 
 I realized I somewhat often want to alphabetize a list, so I figured it'd be nice to have a quick solution I drafted up myself rather than looking online, or even worse, doing it manually &#129314;
