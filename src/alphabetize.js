@@ -2,10 +2,8 @@
  * Quickly alphabetize a list of words split by commas and/or newlines
  * @param {String} wordsId
  * @param {String} resultId
- */
-
+ **/
 function alphabetize(wordsId, resultId) {
-
     // Grab value of textarea, replace newline characters with commas
     var textArea = document.getElementById(wordsId).value.replace(/\n/g, ",");
 
@@ -21,6 +19,5 @@ function alphabetize(wordsId, resultId) {
     var wordsString = wordsArray.toString().replace(/,/g, ", ");
 
     // Display sorted list of words
-    document.getElementById(resultId).innerHTML = wordsString;
-
+    document.getElementById(resultId).innerText = wordsString;
 }
