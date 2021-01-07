@@ -1,6 +1,6 @@
 # AlphabetizeJS &#128292;
 
-Quickly alphabetize a list of words split by commas and/or newlines
+Quickly alphabetize a list of words split by commas or newlines
 
 ## Overview
 
