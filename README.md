@@ -16,4 +16,4 @@ Use `onclick` event of `<input>` to pass in the `id` of the `<textarea>` contain
 
 ## Owner
 
-[Michael A. Agarenzo](https://magarenzo.com)
+[Michael A.](https://linkedin.com/in/magarenzo)
